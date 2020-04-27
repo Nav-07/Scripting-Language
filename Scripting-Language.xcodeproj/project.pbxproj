@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4901EB7D24565DED00806787 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4901EB7C24565DED00806787 /* main.cpp */; };
 		4901EB8624565E8C00806787 /* Lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4901EB8424565E8C00806787 /* Lexer.cpp */; };
+		4901EB8B2456F3BB00806787 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4901EB892456F3BB00806787 /* Parser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		4901EB7C24565DED00806787 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4901EB8424565E8C00806787 /* Lexer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lexer.cpp; sourceTree = "<group>"; };
 		4901EB8524565E8C00806787 /* Lexer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lexer.hpp; sourceTree = "<group>"; };
+		4901EB892456F3BB00806787 /* Parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
+		4901EB8A2456F3BB00806787 /* Parser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Parser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				4901EB8424565E8C00806787 /* Lexer.cpp */,
 				4901EB8524565E8C00806787 /* Lexer.hpp */,
+				4901EB892456F3BB00806787 /* Parser.cpp */,
+				4901EB8A2456F3BB00806787 /* Parser.hpp */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4901EB8624565E8C00806787 /* Lexer.cpp in Sources */,
+				4901EB8B2456F3BB00806787 /* Parser.cpp in Sources */,
 				4901EB7D24565DED00806787 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
